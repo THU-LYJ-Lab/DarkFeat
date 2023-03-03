@@ -1,0 +1,24 @@
+training:
+  optimizer: 'SGD'
+  lr: 0.1
+  momentum: 0.9
+  weight_decay: 0.0001
+  lr_gamma: 0.1
+  lr_step: 200000
+network:
+  input_type: 'raw-demosaic'
+  noise: true
+  noise_maxstep: 1
+  model: 'Quad_L2Net'
+  loss_type: 'HARD_CONTRASTIVE'
+  photaug: true
+  resize: 480
+  use_corr_n: 512
+  det:
+    corr_weight: true
+    safe_radius: 12
+    kpt_n: 512
+    score_thld: -1
+    edge_thld: 10
+    nms_size: 3
+    eof_size: 5
