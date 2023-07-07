@@ -90,6 +90,20 @@ python run.py --stage 3 --config ./configs/config.yaml \
 	--start_cnt 220000
 ```
 
+### Citation
+
+```
+@inproceedings{he2023darkfeat,
+  title={DarkFeat: Noise-Robust Feature Detector and Descriptor for Extremely Low-Light RAW Images},
+  author={He, Yuze and Hu, Yubin and Zhao, Wang and Li, Jisheng and Liu, Yong-Jin and Han, Yuxing and Wen, Jiangtao},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={1},
+  pages={826--834},
+  year={2023}
+}
+```
+
 ### Acknowledgements
 
 This project could not be possible without the open-source works from [ASLFeat](https://github.com/lzx551402/ASLFeat), [R2D2](https://github.com/naver/r2d2),  [MID](https://github.com/Wenzhengchina/Matching-in-the-Dark), [GL3D](https://github.com/lzx551402/GL3D), [SuperGlue](https://github.com/magicleap/SuperGluePretrainedNetwork). We sincerely thank them all.
